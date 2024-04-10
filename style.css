@@ -1,8 +1,0 @@
-@font-face {
-	font-family: 'RotondoBold';
-    src: url('../fonts/RobotoSlab-Black.woff2') format('woff2'),
-	url('../fonts/RobotoSlab-Black.woff') format('woff'),
-	url('../fonts/RobotoSlab-ExtraBold.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
