@@ -124,6 +124,14 @@ body{
     color: #57984c;
 } 
 
+#sliderT{
+    text-align: center;
+    background-image: url(../Images/bgTomato.png);
+    padding: 239px 0;
+    margin-top: 14px;
+
+}
+
 #slider{
     text-align: center;
     background-image: url(../Images/bg.jpg);
@@ -278,3 +286,102 @@ body{
     height: 24px;
     margin: 0 5px;
 }
+
+#pink{
+    background-color: #fcf0f0 ;
+}
+
+#pink-h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+    margin: 24px 0 24px 0px;
+    text-decoration: underline;
+    text-decoration-color: darkgreen ;
+}
+
+#hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+}
+
+#p{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+}
+
+.containerPink {
+    border-left: 3px solid red;
+    padding-left: 10px;
+    margin-left: -14px;
+    height: 70px;
+}
+  
+.p1{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    padding: 14px 0px 0px 0px;
+}
+
+#containerT3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 540px 0px 425px;
+    padding-top: 40px;
+    padding-bottom: 12px;
+    font-family: "Roboto Slab";
+}
+
+.block {
+    width: 30%;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+}
+
+#containerPink2 {
+    border-left: 3px solid red;
+    padding-left: 10px;
+    margin-left: 365px;
+    height: 70px;
+}
+  
+#p2{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    padding: 20px 0px 0px 0px;
+}
+
+#div {
+    background: #FFF;
+    float: left;
+    position: relative;
+    width: 30%;
+    padding-bottom: 0%;
+    margin: 1.66%;        
+}
+#div:hover {
+    background: darkcyan;
+}
+#img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#p3{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    color: #57984c;
+}
+
