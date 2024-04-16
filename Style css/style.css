@@ -385,3 +385,129 @@ body{
     color: #57984c;
 }
 
+#TomatoOne{
+    background-color: gainsboro;
+    background-image: url(../Images/TomatoBg.png);
+    margin-top: 30px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+  
+#text-section {
+    color: white;
+    padding: 20px;
+}
+  
+#rating {
+    font-size: 1em;
+    color: #57984c;
+}
+  
+#highlight {
+    padding: 16px 0px 16px 0px;
+    color: #b64343;
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    font-size: 25px;
+}
+  
+#characteristics {
+    margin-top: 20px;
+    font-family: "Roboto Slab";
+    color: black;
+}
+  
+#buttonTO{
+    background-color: white;
+    color: green;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+ 
+#image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-section img {
+    width: 50%;
+    height: auto;
+    margin: 46px 0px 0px 135px;
+}
+
+#h1TO{
+color: black;
+font-family: "Roboto Slab";
+font-weight: bold;
+}
+
+#h2TO{
+    color: #57984c;
+    font-family: "Roboto Slab";
+    font-weight: bold;    
+}
+
+#LogoTO{
+    width: 100px;
+    height: auto;  
+}
+
+#h3TO{
+    color: #57984c;
+    font-family: "Roboto Slab";
+    font-weight: bold; 
+    text-decoration: underline;
+}
+
+#Resi{
+    font-weight: bold;
+}
+
+#ButtonTO{
+    background-color: transparent;
+    color: green;
+    border: 2px solid green;
+    padding: 10px 20px;
+    margin: 21px 0px 0px 189px;
+    cursor: pointer;
+    border-radius: 50px; 
+    display: flex;
+    align-items: center;
+}
+
+#ButtonTO img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+
+#Container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 0 16px
+}
+
+#section {
+    width: 45%;
+    margin-bottom: 20px;
+}
+  
+#section h2 {
+    color: #57984c;
+}
+  
+#section ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#section ul li::before {
+    content: "• ";
+    color: #57984c;
+}
