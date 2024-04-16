@@ -511,3 +511,62 @@ font-weight: bold;
     content: "• ";
     color: #57984c;
 }
+
+#sliderCS{
+    text-align: center;
+    background-image: url(../Images/BGCS.jpg);
+    padding: 239px 0;
+    margin-top: 14px;
+
+}
+
+#containerCS {
+    display: flex;
+    justify-content: space-between;
+}
+  
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: darkgreen;
+}
+  
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.address {
+    margin-top: 20px;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 19px 0 10px 0px
+}
+
+#ButtonCS{
+    color: White;
+    border: 2px solid green;
+    padding: 10px 20px;
+    margin: 21px 0px 0px 189px;
+    cursor: pointer;
+    border-radius: 50px; 
+    display: flex;
+    align-items: center;
+}
