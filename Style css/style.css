@@ -167,6 +167,7 @@ body{
 #grey{
     background-color: #adb8bb ;
     background-image: url(../Images/Union.png);
+    margin-bottom: -10px;
 }
 
 #visionimg{
@@ -569,4 +570,69 @@ input[type=submit]:hover {
     border-radius: 50px; 
     display: flex;
     align-items: center;
+}
+
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 10px;
+    margin: 0px 0 0 393px;
+}
+
+.burger span{
+    height: 1px;
+    width: 80%;
+    background-color: #000000;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80%; /* Adjusted to match the width of the middle span */
+    background-color: #000000;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before { top: -5px } /* Adjusted to create the top line of the hamburger icon */
+
+.burger::after { bottom: -5px } /* Adjusted to create the bottom line of the hamburger icon */
+
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { 
+    transform: scale(0); 
+}
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(45deg) translate(0, -50%); /* Changed rotation to 45deg */
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(-45deg) translate(0, 50%); /* Changed rotation to -45deg */
+}
+
+.open{
+    display: flex;
+}
+
+#textINsp{
+    background-color: #2D3F45;
+    color: white;
+    padding: 0 29px 0 0px;
+}
+
+#ul23{
+    list-style-type: none;
+}
+
+.g-recaptcha{
+    
 }

@@ -1,0 +1,2721 @@
+@media (min-width: 1920px) {
+    
+  }
+
+@media (min-width: 1600px){
+
+}
+
+@media (min-width: 1480px){
+
+}
+
+@media (min-width: 1280px){
+
+}
+
+
+@media (max-width: 1024px) {
+  body{
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.w-1{
+    width: 100%;
+    float: left;
+}
+
+.w-2{
+    width: 86%;
+    float: left;
+}
+
+.w-3{
+    width: 33.3%;
+    float: left;
+}
+
+.w-4{
+    width: 25%;
+    float: left;
+}
+
+.w-5{
+    width: 20%;
+    float: left;
+}
+
+.w-7{
+    width: 14.28%;
+    float: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.flex{
+    display: flex;
+    align-items: flex-end;
+}
+
+#search{
+    border-bottom: 1px solid #324950;
+    display: inline-block;  
+    max-width: 350px;
+    width: 100%;
+    margin: 13px 264px 26px -51px;
+}
+
+#search input{
+    font-size: 16px;
+    color: #324950;
+    background-color: transparent;
+    border:none;
+    max-width: 324;
+    width: 100%;
+    height: 29px;
+}
+
+#search input::placeholder{
+    color: #324950;
+}
+
+#search button{
+    background-image: url(../Images/Vector.png);
+    font-size: 0;
+    height: 18px;
+    width: 18px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#logo{
+    margin: 10px 0 0 341px;
+}
+
+#menu{
+display: none;
+}
+
+#menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text
+}
+
+#menu ul li{
+    display: inline;
+    margin-left: 16px;
+}
+
+#menu ul li a{
+    color: #324950;
+    font-size: 18px;
+    font-weight:bold;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+#menu ul li a:hover{
+    color: #57984c;
+} 
+
+#sliderT{
+    text-align: center;
+    background-image: url(../Images/bgTomato.png);
+    padding: 239px 0;
+    margin-top: 14px;
+
+}
+
+#slider{
+    text-align: center;
+    background-image: url(../Images/bg.jpg);
+    padding: 338px 0;
+    margin-top: -242px;
+}
+
+#slider h1{
+    color: #735440;
+    font-size: 38px;
+    font-weight:bold;
+    font-family: "Roboto Slab";
+    padding: 79px 0 0 0;
+}
+
+#slider a{
+    display: block;
+    background-color: #57984c;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    width: 155px;
+    height: 55px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+#categories{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 30px 30px;
+}
+
+#categories .row {
+    flex-direction: column; /* Change the flex direction to column */
+}
+
+#categories .w-7 {
+    width: 100%; /* Make each category take up full width */
+    margin-bottom: 20px; /* Add some spacing between categories */
+}
+
+#grey{
+    background-color: #adb8bb ;
+    background-image: url(../Images/Union.png);
+}
+
+
+
+#visionimg, #visiontext, #missionimg, #missiontext, #mission-h1 {
+    float: none; /* Remove floats to allow stacking */
+    width: 100%; /* Make each element take full width */
+    text-align: center; /* Center text within each element */
+  }
+
+  #visionimg, #missionimg {
+    margin: 0 auto; /* Center images horizontally */
+    display: block; /* Ensure images behave as block elements */
+  }
+
+  #mission-h1 {
+    margin-top: 20px; /* Add some spacing above the mission title */
+  }
+
+  #underline-stars-vision::after, 
+#mission-h1::after {
+    display: none;
+}
+
+
+
+#mainactiv{
+    text-align: center;
+    background-color: #EDEDED;
+    padding: 105px 0;
+    margin-top: 8px;
+}
+
+#mainactiv h1{
+    color: #735440;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgreen;
+    padding: 20px;
+}
+.item {
+    border-bottom: none;
+    border-top: 2px solid black ;
+    padding-top: 8px ;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.title {
+    border-bottom: none;
+    border-top: 2px solid black ;
+    padding-top: 8px ;
+    margin-bottom: 10px;
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bold;
+}
+.image {
+    max-width: 200;
+}
+
+.footer {
+    background-color: #2D3F45;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.footer a {
+    color: #00FFFF;
+    text-decoration: none;
+    margin-bottom: 10px
+}
+  
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+  
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+.burger{
+    display: flex;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+    margin: 0px 0 0 432px;
+}
+
+
+.burger span{
+    height: 2px;
+    width: 80%;
+    background-color: #000000;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80%; /* Adjusted to match the width of the middle span */
+    background-color: #000000;
+    transition: all 0.3s ease 0s;
+}
+
+.burger::before { top: -8px } /* Adjusted to create the top line of the hamburger icon */
+
+.burger::after { bottom: -8px } /* Adjusted to create the bottom line of the hamburger icon */
+
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { 
+    transform: scale(0); 
+}
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(45deg) translate(0, -50%); /* Changed rotation to 45deg */
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(-45deg) translate(0, 50%); /* Changed rotation to -45deg */
+}
+
+.open{
+    display: flex;
+}
+
+#menu {
+    display: none;
+    flex-direction: column;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: 1000; /* Ensure it's above other elements */
+    background-color: black;
+    overflow-y: auto; /* Add vertical scroll if content is longer than the screen */
+    padding: 50px 40px;
+    animation: burgerAnimation 0.4s; /* Optional animation */
+    background-color: rgba(0, 0, 0, 0.7)
+  }
+
+  #menu ul {
+    flex-direction: column;
+    row-gap: 30px;
+    text-align: left; /* Align text to the left */
+  }
+  #containerT3 {
+    flex-direction: column;
+  }
+  #containerT3 .block {
+    margin: 0 0 0 -167px; 
+    width: 700%; 
+  }
+
+
+#pink-h1{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+    margin: 24px 0 24px 30px;
+    text-decoration: underline;
+    text-decoration-color: darkgreen ;
+}
+
+#p{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    margin: 0 0 0 30px;
+}
+
+.containerPink {
+    border-left: 3px solid red;
+    padding-left: 10px;
+    margin-left: 30px;
+    height: 70px;
+}
+
+#div {
+    display: block;
+    width: 34%;
+    margin-bottom: 20px;
+  }
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#containerPink2 {
+    border-left: 3px solid red;
+    padding-left: 10px;
+    margin-left: 220px;
+    height: 70px;
+}
+  
+#p2{
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    padding: 20px 0px 0px 0px;
+}
+
+#sliderT {
+    text-align: center;
+    background-image: url(../Images/bgTomato.png);
+    padding: 240px 0;
+    margin-top: 100px;
+}
+#container {
+    flex-direction: column;
+  }
+
+  #text-section, #image-section {
+    width: 100%;
+  }
+
+  #Container2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Container2 > div {
+    width: 100%;
+  }
+
+  #TomatoOne {
+    background-color: gainsboro;
+    background-image: url(../Images/TomatoBg.png);
+    margin-top: 180px;
+}
+
+#section {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+#containerCS {
+    flex-direction: column;
+}
+
+#containerCS .column {
+    width: 100%;
+    margin-bottom: 20px; /* Add spacing between columns */
+}
+
+  
+}
+  
+
+@media (max-width: 768px) {
+    body{
+        margin: 0;
+    }
+    
+    .wrapper{
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .row::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .w-1{
+        width: 100%;
+        float: left;
+    }
+    
+    .w-2{
+        width: 86%;
+        float: left;
+    }
+    
+    .w-3{
+        width: 33.3%;
+        float: left;
+    }
+    
+    .w-4{
+        width: 25%;
+        float: left;
+    }
+    
+    .w-5{
+        width: 20%;
+        float: left;
+    }
+    
+    .w-7{
+        width: 14.28%;
+        float: left;
+    }
+    
+    .align-right{
+        text-align: right;
+    }
+    
+    .flex{
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    #search{
+        border-bottom: 1px solid #324950;
+        display: inline-block;  
+        max-width: 350px;
+        width: 100%;
+        margin: 13px 144px 26px -51px;
+    }
+    
+    #search input{
+        font-size: 16px;
+        color: #324950;
+        background-color: transparent;
+        border:none;
+        max-width: 324;
+        width: 100%;
+        height: 29px;
+    }
+    
+    #search input::placeholder{
+        color: #324950;
+    }
+    
+    #search button{
+        background-image: url(../Images/Vector.png);
+        font-size: 0;
+        height: 18px;
+        width: 18px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+    
+    #logo{
+        margin: 10px 0 0 229px;
+    }
+    
+    #menu{
+    display: none;
+    }
+    
+    #menu ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text
+    }
+    
+    #menu ul li{
+        display: inline;
+        margin-left: 16px;
+    }
+    
+    #menu ul li a{
+        color: #324950;
+        font-size: 18px;
+        font-weight:bold;
+        text-decoration: none;
+        transition: color .5s;
+    }
+    
+    #menu ul li a:hover{
+        color: #57984c;
+    } 
+    
+    #sliderT{
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 239px 0;
+        margin-top: 14px;
+    
+    }
+    
+    #slider{
+        text-align: center;
+        background-image: url(../Images/bg.jpg);
+        padding: 329px 0;
+        margin-top: -242px;
+    }
+    
+    #slider h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight:bold;
+        font-family: "Roboto Slab";
+        padding: 79px 0 0 0;
+    }
+    
+    #slider a{
+        display: block;
+        background-color: #57984c;
+        color: #FFF;
+        font-size: 16px;
+        text-align: center;
+        width: 155px;
+        height: 55px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        line-height: 55px;
+    }
+    
+    #categories{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 30px 30px;
+    }
+    
+    #categories .row {
+        flex-direction: column; /* Change the flex direction to column */
+    }
+    
+    #categories .w-7 {
+        width: 100%; /* Make each category take up full width */
+        margin-bottom: 20px; /* Add some spacing between categories */
+    }
+    
+    #grey{
+        background-color: #adb8bb ;
+        background-image: url(../Images/Union.png);
+    }
+    
+    
+    
+    #visionimg, #visiontext, #missionimg, #missiontext, #mission-h1 {
+        float: none; /* Remove floats to allow stacking */
+        width: 100%; /* Make each element take full width */
+        text-align: center; /* Center text within each element */
+      }
+    
+      #visionimg, #missionimg {
+        margin: 0 auto; /* Center images horizontally */
+        display: block; /* Ensure images behave as block elements */
+      }
+    
+      #mission-h1 {
+        margin-top: 20px; /* Add some spacing above the mission title */
+      }
+    
+      #underline-stars-vision::after, 
+    #mission-h1::after {
+        display: none;
+    }
+    
+    
+    
+    #mainactiv{
+        text-align: center;
+        background-color: #EDEDED;
+        padding: 105px 0;
+        margin-top: 8px;
+    }
+    
+    #mainactiv h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        background-color: lightgreen;
+        padding: 20px;
+    }
+    .item {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0 20px;
+        font-size: 20px;
+    }
+    .title {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .image {
+        max-width: 200;
+    }
+    
+    .footer {
+        background-color: #2D3F45;
+        color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .footer a {
+        color: #00FFFF;
+        text-decoration: none;
+        margin-bottom: 10px
+    }
+      
+    .footer .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+      
+    .footer .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin: 0 5px;
+    }
+    
+    .burger{
+        display: flex;
+        position: relative;
+        z-index: 50;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+        margin: 0px 0 0 314px;
+    }
+    
+    .burger span{
+        height: 2px;
+        width: 80%;
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before, .burger::after{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 80%; /* Adjusted to match the width of the middle span */
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before { top: -8px } /* Adjusted to create the top line of the hamburger icon */
+    
+    .burger::after { bottom: -8px } /* Adjusted to create the bottom line of the hamburger icon */
+    
+    
+    /* Добавляем класс active для анимации иконки бургера */
+    .burger.active span { 
+        transform: scale(0); 
+    }
+    
+    .burger.active::before{
+        top: 50%;
+        transform: rotate(45deg) translate(0, -50%); /* Changed rotation to 45deg */
+    }
+    
+    .burger.active::after{
+        bottom: 50%;
+        transform: rotate(-45deg) translate(0, 50%); /* Changed rotation to -45deg */
+    }
+    
+    .open{
+        display: flex;
+    }
+    
+    #menu {
+        display: none;
+        flex-direction: column;
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        z-index: 1000; /* Ensure it's above other elements */
+        background-color: black;
+        overflow-y: auto; /* Add vertical scroll if content is longer than the screen */
+        padding: 50px 40px;
+        animation: burgerAnimation 0.4s; /* Optional animation */
+        background-color: rgba(0, 0, 0, 0.7)
+      }
+    
+      #menu ul {
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: left; /* Align text to the left */
+      }
+
+      #containerT3 {
+        flex-direction: column;
+      }
+      #containerT3 .block {
+        margin: 0 0 0 -296px; 
+        width: 500px; 
+      }
+
+      #pink-h1{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+        margin: 24px 0 24px 30px;
+        text-decoration: underline;
+        text-decoration-color: darkgreen ;
+    }
+    
+    #p{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        margin: 0 0 0 30px;
+    }
+    
+    .containerPink {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 30px;
+        height: 70px;
+    }
+    
+    #div {
+        display: block;
+        width: 350px;
+        margin-bottom: 20px;
+      }
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    #containerPink2 {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 130px;
+        height: 70px;
+    }
+      
+    #p2{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        padding: 20px 0px 0px 0px;
+    }
+
+    #sliderT {
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 240px 0;
+        margin-top: 100px;
+    }
+    #container {
+        flex-direction: column;
+      }
+    
+      #text-section, #image-section {
+        width: 100%;
+      }
+    
+      #Container2 {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      #Container2 > div {
+        width: 100%;
+      }
+    
+      #TomatoOne {
+        background-color: gainsboro;
+        background-image: url(../Images/TomatoBg.png);
+        margin-top: 180px;
+    }
+    
+    #section {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    #containerCS {
+        flex-direction: column;
+    }
+    
+    #containerCS .column {
+        width: 100%;
+        margin-bottom: 20px; /* Add spacing between columns */
+    }
+}
+
+
+@media (max-width: 640px) {
+    body{
+        margin: 0;
+    }
+    
+    .wrapper{
+        max-width: 640px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .row::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .w-1{
+        width: 100%;
+        float: left;
+    }
+    
+    .w-2{
+        width: 86%;
+        float: left;
+    }
+    
+    .w-3{
+        width: 33.3%;
+        float: left;
+    }
+    
+    .w-4{
+        width: 25%;
+        float: left;
+    }
+    
+    .w-5{
+        width: 20%;
+        float: left;
+    }
+    
+    .w-7{
+        width: 14.28%;
+        float: left;
+    }
+    
+    .align-right{
+        text-align: right;
+    }
+    
+    .flex{
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    #search{
+        border-bottom: 1px solid #324950;
+        display: inline-block;  
+        max-width: 350px;
+        width: 100%;
+        margin: 13px 79px 26px -51px;
+    }
+    
+    #search input{
+        font-size: 16px;
+        color: #324950;
+        background-color: transparent;
+        border:none;
+        max-width: 324;
+        width: 100%;
+        height: 29px;
+    }
+    
+    #search input::placeholder{
+        color: #324950;
+    }
+    
+    #search button{
+        background-image: url(../Images/Vector.png);
+        font-size: 0;
+        height: 18px;
+        width: 18px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+    
+    #logo{
+        margin: 10px 0 0 178px;
+    }
+    
+    #menu{
+    display: none;
+    }
+    
+    #menu ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text
+    }
+    
+    #menu ul li{
+        display: inline;
+        margin-left: 16px;
+    }
+    
+    #menu ul li a{
+        color: #324950;
+        font-size: 18px;
+        font-weight:bold;
+        text-decoration: none;
+        transition: color .5s;
+    }
+    
+    #menu ul li a:hover{
+        color: #57984c;
+    } 
+    
+    #sliderT{
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 239px 0;
+        margin-top: 14px;
+    
+    }
+    
+    #slider{
+        text-align: center;
+        background-image: url(../Images/bg.jpg);
+        padding: 308px 0;
+        margin-top: -242px;
+    }
+    
+    #slider h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight:bold;
+        font-family: "Roboto Slab";
+        padding: 79px 0 0 0;
+    }
+    
+    #slider a{
+        display: block;
+        background-color: #57984c;
+        color: #FFF;
+        font-size: 16px;
+        text-align: center;
+        width: 155px;
+        height: 55px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        line-height: 55px;
+    }
+    
+    #categories{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 30px 30px;
+    }
+    
+    #categories .row {
+        flex-direction: column; /* Change the flex direction to column */
+    }
+    
+    #categories .w-7 {
+        width: 100%; /* Make each category take up full width */
+        margin-bottom: 20px; /* Add some spacing between categories */
+    }
+    
+    #grey{
+        background-color: #adb8bb ;
+        background-image: url(../Images/Union.png);
+    }
+    
+    
+    
+    #visionimg, #visiontext, #missionimg, #missiontext, #mission-h1 {
+        float: none; /* Remove floats to allow stacking */
+        width: 100%; /* Make each element take full width */
+        text-align: center; /* Center text within each element */
+      }
+    
+      #visionimg, #missionimg {
+        margin: 0 auto; /* Center images horizontally */
+        display: block; /* Ensure images behave as block elements */
+      }
+    
+      #mission-h1 {
+        margin-top: 20px; /* Add some spacing above the mission title */
+      }
+    
+      #underline-stars-vision::after, 
+    #mission-h1::after {
+        display: none;
+    }
+    
+    
+    
+    #mainactiv{
+        text-align: center;
+        background-color: #EDEDED;
+        padding: 105px 0;
+        margin-top: 8px;
+    }
+    
+    #mainactiv h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        background-color: lightgreen;
+        padding: 20px;
+    }
+    .item {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0 20px;
+        font-size: 20px;
+    }
+    .title {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .image {
+        max-width: 200;
+    }
+    
+    .footer {
+        background-color: #2D3F45;
+        color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .footer a {
+        color: #00FFFF;
+        text-decoration: none;
+        margin-bottom: 10px
+    }
+      
+    .footer .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+      
+    .footer .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin: 0 5px;
+    }
+    
+    .burger{
+        display: flex;
+        position: relative;
+        z-index: 50;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+        margin: 0px 0 0 269px;
+    }
+    
+    .burger span{
+        height: 2px;
+        width: 80%;
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before, .burger::after{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 80%; /* Adjusted to match the width of the middle span */
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before { top: -8px } /* Adjusted to create the top line of the hamburger icon */
+    
+    .burger::after { bottom: -8px } /* Adjusted to create the bottom line of the hamburger icon */
+    
+    
+    /* Добавляем класс active для анимации иконки бургера */
+    .burger.active span { 
+        transform: scale(0); 
+    }
+    
+    .burger.active::before{
+        top: 50%;
+        transform: rotate(45deg) translate(0, -50%); /* Changed rotation to 45deg */
+    }
+    
+    .burger.active::after{
+        bottom: 50%;
+        transform: rotate(-45deg) translate(0, 50%); /* Changed rotation to -45deg */
+    }
+    
+    .open{
+        display: flex;
+    }
+    
+    #menu {
+        display: none;
+        flex-direction: column;
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        z-index: 1000; /* Ensure it's above other elements */
+        background-color: black;
+        overflow-y: auto; /* Add vertical scroll if content is longer than the screen */
+        padding: 50px 40px;
+        animation: burgerAnimation 0.4s; /* Optional animation */
+        background-color: rgba(0, 0, 0, 0.7)
+      }
+    
+      #menu ul {
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: left; /* Align text to the left */
+      }
+
+      #containerT3 {
+        flex-direction: column;
+      }
+      #containerT3 .block {
+        margin: 0 0 0 -340px; 
+        width: 500px; 
+      }
+
+      #pink-h1{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+        margin: 24px 0 24px 30px;
+        text-decoration: underline;
+        text-decoration-color: darkgreen ;
+    }
+    
+    #p{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        margin: 0 0 0 30px;
+    }
+    
+    .containerPink {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 30px;
+        height: 70px;
+    }
+    
+    #div {
+        display: block;
+        width: 350px;
+        margin-bottom: 20px;
+      }
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    #containerPink2 {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 69px;
+        height: 70px;
+    }
+      
+    #p2{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        padding: 20px 0px 0px 0px;
+    }
+
+    #sliderT {
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 240px 0;
+        margin-top: 100px;
+    }
+    #container {
+        flex-direction: column;
+      }
+    
+      #text-section, #image-section {
+        width: 100%;
+      }
+    
+      #Container2 {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      #Container2 > div {
+        width: 100%;
+      }
+    
+      #TomatoOne {
+        background-color: gainsboro;
+        background-image: url(../Images/TomatoBg.png);
+        margin-top: 180px;
+    }
+    
+    #section {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    #containerCS {
+        flex-direction: column;
+    }
+    
+    #containerCS .column {
+        width: 100%;
+        margin-bottom: 20px; /* Add spacing between columns */
+    }
+    }
+
+@media (max-width: 480px) {
+    body{
+        margin: 0;
+    }
+    
+    .wrapper{
+        max-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .row::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .w-1{
+        width: 100%;
+        float: left;
+    }
+    
+    .w-2{
+        width: 86%;
+        float: left;
+    }
+    
+    .w-3{
+        width: 33.3%;
+        float: left;
+    }
+    
+    .w-4{
+        width: 25%;
+        float: left;
+    }
+    
+    .w-5{
+        width: 20%;
+        float: left;
+    }
+    
+    .w-7{
+        width: 14.28%;
+        float: left;
+    }
+    
+    .align-right{
+        text-align: right;
+    }
+    
+    .flex{
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    #search{
+        border-bottom: 1px solid #324950;
+        display: inline-block;  
+        max-width: 350px;
+        width: 100%;
+        margin: 13px 18px 26px -51px;
+    }
+    
+    #search input{
+        font-size: 16px;
+        color: #324950;
+        background-color: transparent;
+        border:none;
+        max-width: 324;
+        width: 100%;
+        height: 29px;
+    }
+    
+    #search input::placeholder{
+        color: #324950;
+    }
+    
+    #search button{
+        background-image: url(../Images/Vector.png);
+        font-size: 0;
+        height: 18px;
+        width: 18px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+    
+    #logo{
+        margin: 10px 0 0 111px;
+    }
+    
+    #menu{
+    display: none;
+    }
+    
+    #menu ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text
+    }
+    
+    #menu ul li{
+        display: inline;
+        margin-left: 16px;
+    }
+    
+    #menu ul li a{
+        color: #324950;
+        font-size: 18px;
+        font-weight:bold;
+        text-decoration: none;
+        transition: color .5s;
+    }
+    
+    #menu ul li a:hover{
+        color: #57984c;
+    } 
+    
+    #sliderT{
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 239px 0;
+        margin-top: 14px;
+    
+    }
+    
+    #slider{
+        text-align: center;
+        background-image: url(../Images/bg.jpg);
+        padding: 308px 0;
+        margin-top: -242px;
+    }
+    
+    #slider h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight:bold;
+        font-family: "Roboto Slab";
+        padding: 79px 0 0 0;
+    }
+    
+    #slider a{
+        display: block;
+        background-color: #57984c;
+        color: #FFF;
+        font-size: 16px;
+        text-align: center;
+        width: 155px;
+        height: 55px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        line-height: 55px;
+    }
+    
+    #categories{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 30px 30px;
+    }
+    
+    #categories .row {
+        flex-direction: column; /* Change the flex direction to column */
+    }
+    
+    #categories .w-7 {
+        width: 100%; /* Make each category take up full width */
+        margin-bottom: 20px; /* Add some spacing between categories */
+    }
+    
+    #grey{
+        background-color: #adb8bb ;
+        background-image: url(../Images/Union.png);
+    }
+    
+    
+    
+    #visionimg, #visiontext, #missionimg, #missiontext, #mission-h1 {
+        float: none; /* Remove floats to allow stacking */
+        width: 100%; /* Make each element take full width */
+        text-align: center; /* Center text within each element */
+      }
+    
+      #visionimg, #missionimg {
+        margin: 0 auto; /* Center images horizontally */
+        display: block; /* Ensure images behave as block elements */
+      }
+    
+      #mission-h1 {
+        margin-top: 20px; /* Add some spacing above the mission title */
+      }
+    
+      #underline-stars-vision::after, 
+    #mission-h1::after {
+        display: none;
+    }
+    
+    
+    
+    #mainactiv{
+        text-align: center;
+        background-color: #EDEDED;
+        padding: 105px 0;
+        margin-top: 8px;
+    }
+    
+    #mainactiv h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        background-color: lightgreen;
+        padding: 20px;
+    }
+    .item {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0 20px;
+        font-size: 20px;
+    }
+    .title {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .image {
+        max-width: 200;
+    }
+    
+    .footer {
+        background-color: #2D3F45;
+        color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .footer a {
+        color: #00FFFF;
+        text-decoration: none;
+        margin-bottom: 10px
+    }
+      
+    .footer .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+      
+    .footer .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin: 0 5px;
+    }
+    
+    .burger{
+        display: flex;
+        position: relative;
+        z-index: 50;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+        margin: 0px 0 0 200px;
+    }
+    
+    .burger span{
+        height: 2px;
+        width: 80%;
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before, .burger::after{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 80%; /* Adjusted to match the width of the middle span */
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before { top: -8px } /* Adjusted to create the top line of the hamburger icon */
+    
+    .burger::after { bottom: -8px } /* Adjusted to create the bottom line of the hamburger icon */
+    
+    
+    /* Добавляем класс active для анимации иконки бургера */
+    .burger.active span { 
+        transform: scale(0); 
+    }
+    
+    .burger.active::before{
+        top: 50%;
+        transform: rotate(45deg) translate(0, -50%); /* Changed rotation to 45deg */
+    }
+    
+    .burger.active::after{
+        bottom: 50%;
+        transform: rotate(-45deg) translate(0, 50%); /* Changed rotation to -45deg */
+    }
+    
+    .open{
+        display: flex;
+    }
+    
+    #menu {
+        display: none;
+        flex-direction: column;
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        z-index: 1000; /* Ensure it's above other elements */
+        background-color: black;
+        overflow-y: auto; /* Add vertical scroll if content is longer than the screen */
+        padding: 50px 40px;
+        animation: burgerAnimation 0.4s; /* Optional animation */
+        background-color: rgba(0, 0, 0, 0.7)
+      }
+    
+      #menu ul {
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: left; /* Align text to the left */
+      }
+
+      #containerT3 {
+        flex-direction: column;
+      }
+      #containerT3 .block {
+        margin: 0 0 0 -363px; 
+        width: 373px; 
+      }
+
+      #pink-h1{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+        margin: 24px 0 24px 30px;
+        text-decoration: underline;
+        text-decoration-color: darkgreen ;
+    }
+    
+    #p{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        margin: 0 0 0 30px;
+    }
+    
+    .containerPink {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 30px;
+        height: 90px;
+    }
+    
+    #div {
+        display: block;
+        width: 350px;
+        margin-bottom: 20px;
+      }
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    #containerPink2 {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 43px;
+        height: 90px;
+    }
+      
+    #p2{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        padding: 20px 0px 0px 0px;
+    }
+
+    #sliderT {
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 240px 0;
+        margin-top: 100px;
+    }
+    #container {
+        flex-direction: column;
+      }
+    
+      #text-section, #image-section {
+        width: 100%;
+      }
+    
+      #Container2 {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      #Container2 > div {
+        width: 100%;
+      }
+    
+      #TomatoOne {
+        background-color: gainsboro;
+        background-image: url(../Images/TomatoBg.png);
+        margin-top: 180px;
+    }
+    
+    #section {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    #containerCS {
+        flex-direction: column;
+    }
+    
+    #containerCS .column {
+        width: 100%;
+        margin-bottom: 20px; /* Add spacing between columns */
+    }
+    }
+
+@media (max-width: 400px) {
+    body{
+        margin: 0;
+    }
+    
+    .wrapper{
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .row::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .w-1{
+        width: 100%;
+        float: left;
+    }
+    
+    .w-2{
+        width: 86%;
+        float: left;
+    }
+    
+    .w-3{
+        width: 33.3%;
+        float: left;
+    }
+    
+    .w-4{
+        width: 25%;
+        float: left;
+    }
+    
+    .w-5{
+        width: 20%;
+        float: left;
+    }
+    
+    .w-7{
+        width: 14.28%;
+        float: left;
+    }
+    
+    .align-right{
+        text-align: right;
+    }
+    
+    .flex{
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    #search{
+        border-bottom: 1px solid #324950;
+        display: inline-block;  
+        max-width: 350px;
+        width: 100%;
+        margin: 13px -16px 26px -51px;
+    }
+    
+    #search input{
+        font-size: 16px;
+        color: #324950;
+        background-color: transparent;
+        border:none;
+        max-width: 324;
+        width: 100%;
+        height: 29px;
+    }
+    
+    #search input::placeholder{
+        color: #324950;
+    }
+    
+    #search button{
+        background-image: url(../Images/Vector.png);
+        font-size: 0;
+        height: 18px;
+        width: 18px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+    
+    #logo{
+        margin: 10px 0 0 80px;
+    }
+    
+    #menu{
+    display: none;
+    }
+    
+    #menu ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text
+    }
+    
+    #menu ul li{
+        display: inline;
+        margin-left: 16px;
+    }
+    
+    #menu ul li a{
+        color: #324950;
+        font-size: 18px;
+        font-weight:bold;
+        text-decoration: none;
+        transition: color .5s;
+    }
+    
+    #menu ul li a:hover{
+        color: #57984c;
+    } 
+    
+    #sliderT{
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 239px 0;
+        margin-top: 14px;
+    
+    }
+    
+    #slider{
+        text-align: center;
+        background-image: url(../Images/bg.jpg);
+        padding: 308px 0;
+        margin-top: -242px;
+    }
+    
+    #slider h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight:bold;
+        font-family: "Roboto Slab";
+        padding: 79px 0 0 0;
+    }
+    
+    #slider a{
+        display: block;
+        background-color: #57984c;
+        color: #FFF;
+        font-size: 16px;
+        text-align: center;
+        width: 155px;
+        height: 55px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        line-height: 55px;
+    }
+    
+    #categories{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 30px 30px;
+    }
+    
+    #categories .row {
+        flex-direction: column; /* Change the flex direction to column */
+    }
+    
+    #categories .w-7 {
+        width: 100%; /* Make each category take up full width */
+        margin-bottom: 20px; /* Add some spacing between categories */
+    }
+    
+    #grey{
+        background-color: #adb8bb ;
+        background-image: url(../Images/Union.png);
+    }
+    
+    
+    
+    #visionimg, #visiontext, #missionimg, #missiontext, #mission-h1 {
+        float: none; /* Remove floats to allow stacking */
+        width: 100%; /* Make each element take full width */
+        text-align: center; /* Center text within each element */
+      }
+    
+      #visionimg, #missionimg {
+        margin: 0 auto; /* Center images horizontally */
+        display: block; /* Ensure images behave as block elements */
+      }
+    
+      #mission-h1 {
+        margin-top: 20px; /* Add some spacing above the mission title */
+      }
+    
+      #underline-stars-vision::after, 
+    #mission-h1::after {
+        display: none;
+    }
+    
+    
+    
+    #mainactiv{
+        text-align: center;
+        background-color: #EDEDED;
+        padding: 105px 0;
+        margin-top: 8px;
+    }
+    
+    #mainactiv h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        background-color: lightgreen;
+        padding: 20px;
+    }
+    .item {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0 20px;
+        font-size: 20px;
+    }
+    .title {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .image {
+        max-width: 200;
+    }
+    
+    .footer {
+        background-color: #2D3F45;
+        color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .footer a {
+        color: #00FFFF;
+        text-decoration: none;
+        margin-bottom: 10px
+    }
+      
+    .footer .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+      
+    .footer .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin: 0 5px;
+    }
+    
+    .burger{
+        display: flex;
+        position: relative;
+        z-index: 50;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+        margin: 0px 0 0 165px;
+    }
+    
+    .burger span{
+        height: 2px;
+        width: 80%;
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before, .burger::after{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 80%; /* Adjusted to match the width of the middle span */
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before { top: -8px } /* Adjusted to create the top line of the hamburger icon */
+    
+    .burger::after { bottom: -8px } /* Adjusted to create the bottom line of the hamburger icon */
+    
+    
+    /* Добавляем класс active для анимации иконки бургера */
+    .burger.active span { 
+        transform: scale(0); 
+    }
+    
+    .burger.active::before{
+        top: 50%;
+        transform: rotate(45deg) translate(0, -50%); /* Changed rotation to 45deg */
+    }
+    
+    .burger.active::after{
+        bottom: 50%;
+        transform: rotate(-45deg) translate(0, 50%); /* Changed rotation to -45deg */
+    }
+    
+    .open{
+        display: flex;
+    }
+    
+    #menu {
+        display: none;
+        flex-direction: column;
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        z-index: 1000; /* Ensure it's above other elements */
+        background-color: black;
+        overflow-y: auto; /* Add vertical scroll if content is longer than the screen */
+        padding: 50px 40px;
+        animation: burgerAnimation 0.4s; /* Optional animation */
+        background-color: rgba(0, 0, 0, 0.7)
+      }
+    
+      #menu ul {
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: left; /* Align text to the left */
+      }
+
+      h2{
+        font-size: 1rem;
+      }
+
+      #containerT3 {
+        flex-direction: column;
+      }
+      #containerT3 .block {
+        margin: 0 0 0 -380px; 
+        width: 324px; 
+      }
+
+      #pink-h1{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+        margin: 24px 0 24px 30px;
+        text-decoration: underline;
+        text-decoration-color: darkgreen ;
+    }
+    
+    #p{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        margin: 0 0 0 30px;
+    }
+    
+    .containerPink {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 30px;
+        height: 110px;
+    }
+    
+    #div {
+        display: block;
+        width: 350px;
+        margin-bottom: 20px;
+      }
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    #containerPink2 {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 43px;
+        height: 110px;
+    }
+      
+    #p2{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        padding: 20px 0px 0px 0px;
+    }
+
+    #sliderT {
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 240px 0;
+        margin-top: 100px;
+    }
+
+    #container {
+        flex-direction: column;
+      }
+    
+      #text-section, #image-section {
+        width: 100%;
+      }
+    
+      #Container2 {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      #Container2 > div {
+        width: 100%;
+      }
+    
+      #TomatoOne {
+        background-color: gainsboro;
+        background-image: url(../Images/TomatoBg.png);
+        margin-top: 180px;
+    }
+    
+    #section {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    #highlight {
+        padding: 16px 0px 16px 0px;
+        color: #b64343;
+        font-family: "Roboto Slab";
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #containerCS {
+        flex-direction: column;
+    }
+    
+    #containerCS .column {
+        width: 100%;
+        margin-bottom: 20px; /* Add spacing between columns */
+    }
+    }
+
+
+@media (max-width: 320px) {
+    body{
+        margin: 0;
+    }
+    
+    .wrapper{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .row::after{
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .w-1{
+        width: 100%;
+        float: left;
+    }
+    
+    .w-2{
+        width: 86%;
+        float: left;
+    }
+    
+    .w-3{
+        width: 33.3%;
+        float: left;
+    }
+    
+    .w-4{
+        width: 25%;
+        float: left;
+    }
+    
+    .w-5{
+        width: 20%;
+        float: left;
+    }
+    
+    .w-7{
+        width: 14.28%;
+        float: left;
+    }
+    
+    .align-right{
+        text-align: right;
+    }
+    
+    .flex{
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    #search{
+        border-bottom: 1px solid #324950;
+        display: inline-block;  
+        max-width: 350px;
+        width: 100%;
+        margin: 13px -16px 26px -51px;
+    }
+    
+    #search input{
+        font-size: 16px;
+        color: #324950;
+        background-color: transparent;
+        border:none;
+        max-width: 324;
+        width: 100%;
+        height: 29px;
+    }
+    
+    #search input::placeholder{
+        color: #324950;
+    }
+    
+    #search button{
+        background-image: url(../Images/Vector.png);
+        font-size: 0;
+        height: 18px;
+        width: 18px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+    
+    #logo{
+        margin: 10px 0 0 45px;
+    }
+    
+    #menu{
+    display: none;
+    }
+    
+    #menu ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text
+    }
+    
+    #menu ul li{
+        display: inline;
+        margin-left: 16px;
+    }
+    
+    #menu ul li a{
+        color: #324950;
+        font-size: 18px;
+        font-weight:bold;
+        text-decoration: none;
+        transition: color .5s;
+    }
+    
+    #menu ul li a:hover{
+        color: #57984c;
+    } 
+    
+    #sliderT{
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 239px 0;
+        margin-top: 14px;
+    
+    }
+    
+    #slider{
+        text-align: center;
+        background-image: url(../Images/bg.jpg);
+        padding: 338px 0;
+        margin-top: -242px;
+        padding-bottom: 200px;
+    }
+    
+    #slider h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight:bold;
+        font-family: "Roboto Slab";
+        padding: 79px 0 0 0;
+    }
+    
+    #slider a{
+        display: block;
+        background-color: #57984c;
+        color: #FFF;
+        font-size: 16px;
+        text-align: center;
+        width: 155px;
+        height: 55px;
+        margin: 0 auto;
+        text-transform: uppercase;
+        line-height: 55px;
+    }
+    
+    #categories{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 30px 30px;
+    }
+    
+    #categories .row {
+        flex-direction: column; /* Change the flex direction to column */
+    }
+    
+    #categories .w-7 {
+        width: 100%; /* Make each category take up full width */
+        margin-bottom: 20px; /* Add some spacing between categories */
+    }
+    
+    #grey{
+        background-color: #adb8bb ;
+        background-image: url(../Images/Union.png);
+    }
+    
+    
+    
+    #visionimg, #visiontext, #missionimg, #missiontext, #mission-h1 {
+        float: none; /* Remove floats to allow stacking */
+        width: 100%; /* Make each element take full width */
+        text-align: center; /* Center text within each element */
+      }
+    
+      #visionimg, #missionimg {
+        margin: 0 auto; /* Center images horizontally */
+        display: block; /* Ensure images behave as block elements */
+      }
+    
+      #mission-h1 {
+        margin-top: 20px; /* Add some spacing above the mission title */
+      }
+    
+      #underline-stars-vision::after, 
+    #mission-h1::after {
+        display: none;
+    }
+    
+    
+    
+    #mainactiv{
+        text-align: center;
+        background-color: #EDEDED;
+        padding: 105px 0;
+        margin-top: 8px;
+    }
+    
+    #mainactiv h1{
+        color: #735440;
+        font-size: 38px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        background-color: lightgreen;
+        padding: 20px;
+    }
+    .item {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0 20px;
+        font-size: 20px;
+    }
+    .title {
+        border-bottom: none;
+        border-top: 2px solid black ;
+        padding-top: 8px ;
+        margin-bottom: 10px;
+        color: darkgreen;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .image {
+        max-width: 200;
+    }
+    
+    .footer {
+        background-color: #2D3F45;
+        color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .footer a {
+        color: #00FFFF;
+        text-decoration: none;
+        margin-bottom: 10px
+    }
+      
+    .footer .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+      
+    .footer .social-icons img {
+        width: 24px;
+        height: 24px;
+        margin: 0 5px;
+    }
+    
+    .burger{
+        display: flex;
+        position: relative;
+        z-index: 50;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+        margin: 0px 0 0 130px;
+    }
+    
+    .burger span{
+        height: 2px;
+        width: 80%;
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before, .burger::after{
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 80%; /* Adjusted to match the width of the middle span */
+        background-color: #000000;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .burger::before { top: -8px } /* Adjusted to create the top line of the hamburger icon */
+    
+    .burger::after { bottom: -8px } /* Adjusted to create the bottom line of the hamburger icon */
+    
+    
+    /* Добавляем класс active для анимации иконки бургера */
+    .burger.active span { 
+        transform: scale(0); 
+    }
+    
+    .burger.active::before{
+        top: 50%;
+        transform: rotate(45deg) translate(0, -50%); /* Changed rotation to 45deg */
+    }
+    
+    .burger.active::after{
+        bottom: 50%;
+        transform: rotate(-45deg) translate(0, 50%); /* Changed rotation to -45deg */
+    }
+    
+    .open{
+        display: flex;
+    }
+    
+    #menu {
+        display: none;
+        flex-direction: column;
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; 
+        z-index: 1000; /* Ensure it's above other elements */
+        background-color: black;
+        overflow-y: auto; /* Add vertical scroll if content is longer than the screen */
+        padding: 50px 40px;
+        animation: burgerAnimation 0.4s; /* Optional animation */
+        background-color: rgba(0, 0, 0, 0.7)
+      }
+    
+      #menu ul {
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: left; /* Align text to the left */
+      }
+
+      #containerT3 {
+        flex-direction: column;
+      }
+      #containerT3 .block {
+        margin: 0 0 0 -392px; 
+        width: 256px; 
+      }
+
+      #pink-h1{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: "Roboto Slab";
+        margin: 24px 0 24px 30px;
+        text-decoration: underline;
+        text-decoration-color: darkgreen ;
+    }
+    
+    #p{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        margin: 0 0 0 30px;
+    }
+    
+    .containerPink {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 30px;
+        height: 140px;
+    }
+    
+    #div {
+        display: block;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+   
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    #containerPink2 {
+        border-left: 3px solid red;
+        padding-left: 10px;
+        margin-left: 14px;
+        height: 90px;
+    }
+      
+    #p2{
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        padding: 20px 0px 0px 0px;
+    }
+
+    #sliderT {
+        text-align: center;
+        background-image: url(../Images/bgTomato.png);
+        padding: 240px 0;
+        margin-top: 100px;
+    }
+
+    #container {
+        flex-direction: column;
+      }
+    
+      #text-section, #image-section {
+        width: 100%;
+      }
+    
+      #Container2 {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      #Container2 > div {
+        width: 100%;
+      }
+    
+      #TomatoOne {
+        background-color: gainsboro;
+        background-image: url(../Images/TomatoBg.png);
+        margin-top: 180px;
+    }
+    
+    #section {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    #highlight {
+        padding: 16px 0px 16px 0px;
+        color: #b64343;
+        font-family: "Roboto Slab";
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #containerCS {
+        flex-direction: column;
+    }
+    
+    #containerCS .column {
+        width: 100%;
+        margin-bottom: 20px; /* Add spacing between columns */
+    }
+    #ButtonCS{
+        color: White;
+        border: 2px solid green;
+        padding: 10px 20px;
+        margin: 21px 0px 0px 70px;
+        cursor: pointer;
+        border-radius: 50px; 
+        display: flex;
+        align-items: center;
+    }
+    .g-recaptcha{
+    margin: 0 0 0 -10px;
+    }
+    
+    #sliderCS {
+        text-align: center;
+        background-image: url(../Images/BGCS.jpg);
+        padding: 239px 0;
+        margin-top: 160px;
+    }
+    }

@@ -1,8 +1,10 @@
 <html> 
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="Style css/style.css"
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="Style css/style.css">
+      <link rel="stylesheet" href="Style css/responsive.css">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=320, initial-scale=1.0"/>
         <title>Tomato one</title>
     </head>
     <body>
@@ -33,9 +35,19 @@
                         <li><a href="Contact us.html">Contact</a></li>
                     </ul>
                 </div>
+                <div class="burger">
+                  <span><ul id="ul23">
+                      <li><a href="" id="textINsp">Home</a></li>
+                      <li><a href="" id="textINsp">Company profiles</a></li>
+                      <li><a href="Tomato all.html" id="textINsp">Products</a></li>
+                      <li><a href="" id="textINsp">Services</a></li>
+                      <li><a href="" id="textINsp">R&D</a></li>
+                      <li><a href="Contact us.html" id="textINsp">Contact</a></li>
+                  </ul></span>
             </div>
         </div>
     </div>
+</div>
 </div>
 <div class="content">
     <div id="TomatoOne">
@@ -99,12 +111,12 @@
 
 
 <div class="footer">
-    <a href="#">PROFILE</a> |
-    <a href="#">MANAGEMENT</a> |
-    <a href="#">PRODUCTS</a> |
-    <a href="#">R&D</a> |
-    <a href="#">LINKS</a> |
-    <a href="#">SITEMAP</a> |
+    <a href="#">PROFILE</a> 
+    <a href="#">MANAGEMENT</a> 
+    <a href="#">PRODUCTS</a> 
+    <a href="#">R&D</a> 
+    <a href="#">LINKS</a> 
+    <a href="#">SITEMAP</a> 
     <a href="#">CONTACT</a>
     <p>AGRIDEA SEEDS & AGRICULTURE LTD. © 2020</p>
     <div class="social-icons">
@@ -117,5 +129,11 @@
 </div>
 </div>
 </div>
+<script>
+  document.querySelector('.burger').addEventListener('click', function() {
+         this.classList.toggle('active');
+         document.querySelector('#menu').classList.toggle('open');
+     })
+</script>
 </body>
 </html>
