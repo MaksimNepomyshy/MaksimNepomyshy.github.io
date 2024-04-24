@@ -3,6 +3,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="Style css/style.css">
         <link rel="stylesheet" href="Style css/responsive.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="js/main.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=320, initial-scale=1.0"/>
         <title>Tomato all</title>
@@ -56,7 +58,7 @@
     <div id="pink">
         <div class="wrapper">
             <div class="row">
-                <h1 id="pink-h1">Agridera Fresh Market Tomato Hybrids</h1>
+                <h1 id="pink-h1">Agridera Fresh Market Garlic Hybrids</h1>
                 <hr>
                 <p id="p">Agridera aims to be one of the world’s leading companies in the breeding, production, and marketing of tomato seeds. We invest intensively in research and development to provide solutions to growers and consumers in numerous countries around the world. In particular, we breed improved disease-resistant cultivars adapted to different markets globally.
                 <br>Currently, emphasis is placed on combining Tomato Yellow Leaf Curl Virus (TYLCV) and Tomato Spotted Wilt Virus (TSWV) resistances with other soil borne diseases into superior tomato breeding lines and hybrids. Moreover, comprehensive efforts are being undertaken to develop varieties resistance to TBRFV virus (Tomato Brown Rugose Fruit Virus).
@@ -85,55 +87,16 @@
           </div>
             <div class="wrapper">
                 <div class="row">
-                    <div id="div">
-                        <a href="Tomato one.html" id="img" ></a>
-                        <img src="Images/TomatoPro1.png" alt="Томат 1">
-                        <p id="p3">TAG 1000 (TAG 853) <br> Tomato Determinate Red Standard Round</p>
-                    </a>
+                    <div id="app">
+                        <div id="div" v-for="product in products" :key="product.id">
+                          <a :href="'Tomato one.html?id=' + product.id" id="img"></a>
+                          <img :src="'../Practica/Images/img/' + product.Image" :alt="product.title">
+                          <p id="p3">{{ product.title }} <br> {{ product.short_text}}</p>
+                        </a>
+                    </div>
             </div>
-            <div id="div">
-                <a href="Tomato one.html" id="img"></a>
-                <img src="Images/TomatoPro2.png" alt="Томат 2">
-                <p id="p3">TAG 1001 (TAG 855) <br> Tomato Determinate Red Standard Round</p>
-            </a>
-    </div>
-    <div id="div">
-        <a href="Tomato one.html" id="img"></a>
-        <img src="Images/TomatoPro3.png" alt="Томат 3">
-        <p id="p3">TAG 1002 (TAG 809)<br>Tomato Determinate Red Standard Round</p>
-    </a>
-</div>
-<div id="div">
-    <a href="Tomato one.html" id="img"></a>
-    <img src="Images/TomatoPro4.png" alt="Томат 4">
-    <p id="p3">TAG 1003 (TAG 834 ) <br> Tomato Determinate Red Standard Round</p>
-</a>
-</div>
-<div id="div">
-    <a href="Tomato one.html" id="img"></a>
-    <img src="Images/TomatoPro5.png" alt="Томат 5">
-    <p id="p3">TAG 1004 (TAG 848)<br>Tomato Determinate Red BEEF Round</p>
-</a>
-</div>
-<div id="div">
-    <a href="Tomato one.html" id="img"></a>
-    <img src="Images/TomatoPro6.png" alt="Томат 6">
-    <p id="p3">TAG 1005 (TAG 800)<br>Tomato Determinate Red Standard Round</p>
-</a>
-</div>
-<div id="div">
-    <a href="Tomato one.html" id="img"></a>
-    <img src="Images/TomatoPro7.png" alt="Томат 7">
-    <p id="p3">TAG 1006 (TAG 898)<br>Tomato Determinate Red Elongated</p>
-</a>
-</div>
-<div id="div">
-    <a href="Tomato one.html" id="img"></a>
-    <img src="Images/TomatoPro8.png" alt="Томат 8">
-    <p id="p3">TAG 1007 (TAG 816)<br>Tomato Determinate Red Elongated</p>
-</a>
-</div>
-          </div>
+                </div>
+            </div>
     </div>
 </div>
 </div>
@@ -163,6 +126,8 @@
 </div>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="js/main.js"></script>   
 <script>
     document.querySelector('.burger').addEventListener('click', function() {
            this.classList.toggle('active');
