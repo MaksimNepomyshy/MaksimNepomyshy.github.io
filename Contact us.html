@@ -52,18 +52,41 @@
         </div>
     </div>
 </div>
+<div id="app">
+    <div id="cart-table" v-if="cart.length > 0">
+        <table>
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Name</th>
+              <th>Description</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="item in cart" :key="item.id">
+              <td><img :src="'../Practica/Images/img/' + item.Image" alt="Product Image"></td>
+              <td>{{ item.title }}</td>
+              <td>{{ item.short_text }}</td>
+              <td><button @click="removeFromCart(item.id)">X</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+</div>
 <div class="content">
     <div id="sliderCS">
     </div>
     <div id="containerCS">
         <div class="column">
-          <input type="text" id="name" name="name" placeholder="Name">
-          <input type="text" id="company" name="company" placeholder="Company Name">
-          <input type="text" id="position" name="position" placeholder="Position">
-          <input type="text" id="city" name="city" placeholder="City">
-          <input type="text" id="country" name="country" placeholder="Country">
-          <input type="text" id="phone" name="phone" placeholder="Telephone">
-          <input type="text" id="email" name="email" placeholder="Email">
+        <form @submit.prevent="makeOrder"></form>
+          <input type="text" id="name" name="name" placeholder="Name" required v-model="contactFields.name">
+          <input type="text" id="company" name="company" placeholder="Company Name" required v-model="contactFields.company">
+          <input type="text" id="position" name="position" placeholder="Position" required v-model="contactFields.position">
+          <input type="text" id="city" name="city" placeholder="City" required v-model="contactFields.city">
+          <input type="text" id="country" name="country" placeholder="Country" required v-model="contactFields.country">
+          <input type="text" id="phone" name="phone" placeholder="Telephone" required v-model="contactFields.phone">
+          <input type="text" id="email" name="email" placeholder="Email" required v-model="contactFields.email">
         </div>
         <div class="column">
           <select id="role" name="role">
@@ -73,6 +96,7 @@
           <textarea id="interest" name="interest" placeholder="You are interested in" style="height:170px"></textarea>
           <div class="g-recaptcha" data-sitekey="ваш_ключ_сайта"></div>
           <input type="submit" value="Send Message" id="ButtonCS">
+        </form>
         </div>
       </div>
 
@@ -104,6 +128,8 @@
 </div>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="js/main.js"></script>
 <script>
     document.querySelector('.burger').addEventListener('click', function() {
            this.classList.toggle('active');

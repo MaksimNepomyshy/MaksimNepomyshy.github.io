@@ -51,59 +51,31 @@
     </div>
 </div>
 </div>
+<div id="app">
 <div class="content">
-    <div id="TomatoOne">
+    <div id="TomatoOne" v-for="product in products">
         <div class="wrapper">
             <div class="row">
                 <div id="container">
                     <div id="text-section">
-                      <h1 id="h1TO">TAG 1002 (TAG 809)</h1>
-                      <h2 id="h2TO">Tomato Determinate Red Standard Round</h2>
+                      <h1 id="h1TO">{{ product.title }}</h1> 
                       <div id="rating">********</div>
-                      <p id="highlight"><img src="Images/Red.png" id="LogoTO"> high yield and excellent fruits quality!</p>
-                      <div id="characteristics">
-                        <h3 id="h3TO">CHARACTERISTICS</h3>
-                        <p id="Resi">Resistance</p>
-                        <p>HR: ToMV0-2; Fol:0,1,2; Vd;Va:</p>
-                        <p>IR: TSWV</p>
+                      <p id="highlight">
+                        <img src="Images/Red.png" id="LogoTO">
+                         {{ product.short_text }}
+                      </p>
                       </div>
                     </div>
                     <div id="image-section">
-                      <img src="Images/TomatoOne.jpg" alt="Tomatoes">
-                      <button id="ButtonTo">
-                        <img src="Images/ico_pdf.png" alt="Button image">
-                        Download PDF
-                    </button>
+                    <img :src="'../Practica/Images/img/' + product.Image" alt="Tomatoes"> 
+                    <a id="ButtonTo" href="#" @click.prevent="addToCart(product.id)" v-if="!btnVisible">
+                      Add to Cart
+                    </a>
+                    <a id="ButtonTo" href="Contact us.html" v-if="btnVisible">
+                      Go to cart
+                    </a>
                     </div>
                   </div>
-                  <div id="Container2">
-                    <div id="section">
-                      <h2 id="h3To">Plant</h2>
-                      <ul>
-                        <li>Strong vigor that provides good leaf coverage.</li>
-                        <li>Very high productivity with good fruit setting.</li>
-                        <li>Early matured variety.</li>
-                      </ul>
-                    </div>
-                    <div id="section">
-                      <h2 id="h3To">Fruit</h2>
-                      <ul>
-                        <li>Long shelf life on plant and post harvest.</li>
-                        <li>Nice shiny attractive deep red color.</li>
-                        <li>Average fruit size: 140 – 160 grams.</li>
-                      </ul>
-                    </div>
-                    <div id="section">
-                      <h2 id="h3To">Cycle</h2>
-                      <ul>
-                        <li>Spring</li>
-                        <li>Fall</li>
-                        <li>Winter</li>
-                      </ul>
-                    </div>
-                    <div id="section">
-                      <h2 id="h3To">Color</h2>
-                      <p>Red</p>
                     </div>
                   </div>
             </div>
@@ -131,6 +103,8 @@
 </div>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="js/main.js"></script>
 <script>
   document.querySelector('.burger').addEventListener('click', function() {
          this.classList.toggle('active');
