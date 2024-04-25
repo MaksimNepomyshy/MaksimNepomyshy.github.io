@@ -89,7 +89,7 @@
                 <div class="row">
                     <div id="app">
                         <div id="div" v-for="product in products" :key="product.id">
-                          <a :href="'Tomato one.html?id=' + product.id" id="img"></a>
+                          <a :href="'Tomato one.html#' + product.id" id="img"></a>
                           <img :src="'../../Images/img/' + product.Image" :alt="product.title">
                           <p id="p3">{{ product.title }} <br> {{ product.short_text}}</p>
                         </a>
