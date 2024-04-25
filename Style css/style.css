@@ -637,3 +637,23 @@ input[type=submit]:hover {
 .g-recaptcha{
     
 }
+
+#imgCS{
+
+}
+
+#TextCS{
+    padding: 0px 20px 0px 10px;
+}
+
+#ButtonCS2{
+    background-color: transparent;
+    color: green;
+    border: 2px solid green;
+    padding: 5px 11px;
+    margin: 21px 0px 21px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}

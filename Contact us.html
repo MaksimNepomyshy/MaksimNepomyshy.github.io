@@ -65,10 +65,10 @@
           </thead>
           <tbody>
             <tr v-for="item in cart" :key="item.id">
-              <td><img :src="'../Practica/Images/img/' + item.Image" alt="Product Image"></td>
-              <td>{{ item.title }}</td>
-              <td>{{ item.short_text }}</td>
-              <td><button @click="removeFromCart(item.id)">X</button></td>
+              <td><img :src="'../Practica/Images/img/' + item.Image" alt="Product Image" id="imgCS"></td>
+              <td id="TextCS">{{ item.title }}</td>
+              <td id="TextCS">{{ item.short_text }}</td>
+              <td><button @click="removeFromCart(item.id)" id="ButtonCS2">X</button></td>
             </tr>
           </tbody>
         </table>
