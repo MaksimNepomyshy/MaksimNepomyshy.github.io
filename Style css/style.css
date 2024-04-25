@@ -433,6 +433,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 0 0 290px;
 }
 
 #image-section img {
@@ -474,7 +475,7 @@ font-weight: bold;
     color: green;
     border: 2px solid green;
     padding: 10px 20px;
-    margin: 21px 0px 0px 189px;
+    margin: 21px 0px 21px 150px;
     cursor: pointer;
     border-radius: 50px; 
     display: flex;
